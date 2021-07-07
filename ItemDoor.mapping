@@ -1,1 +1,2 @@
 CLASS ec ItemDoor
+	FIELD a material Lgb;

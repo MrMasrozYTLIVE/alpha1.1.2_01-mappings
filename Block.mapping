@@ -1,4 +1,6 @@
 CLASS ly Block
+	FIELD B water Lly;
+	FIELD D lava Lly;
 	FIELD aA crops Lly;
 	FIELD aC stoneOvenIdle Lly;
 	FIELD aY sugarCane Lly;

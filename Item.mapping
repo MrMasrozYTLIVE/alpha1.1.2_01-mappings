@@ -1,11 +1,20 @@
 CLASS di Item
+	FIELD A axeDiamond Ldi;
 	FIELD B stick Ldi;
 	FIELD C bowlEmpty Ldi;
 	FIELD D bowlSoup Ldi;
 	FIELD E swordGold Ldi;
 	FIELD F shovelGold Ldi;
+	FIELD G pickaxeGold Ldi;
+	FIELD H axeGold Ldi;
 	FIELD I silk Ldi;
 	FIELD J feather Ldi;
+	FIELD K gunPowder Ldi;
+	FIELD L hoeWood Ldi;
+	FIELD M hoeStone Ldi;
+	FIELD N hoeIron Ldi;
+	FIELD O hoeDiamond Ldi;
+	FIELD P hoeGold Ldi;
 	FIELD Q seed Ldi;
 	FIELD R wheat Ldi;
 	FIELD S bread Ldi;
@@ -16,6 +25,7 @@ CLASS di Item
 	FIELD X helmetChain Ldi;
 	FIELD Y plateChain Ldi;
 	FIELD Z legsChain Ldi;
+	FIELD aB snowball Ldi;
 	FIELD aF brick Ldi;
 	FIELD aG clay Ldi;
 	FIELD aH sugarCane Ldi;
@@ -49,11 +59,15 @@ CLASS di Item
 	FIELD ar goldApple Ldi;
 	FIELD as sign Ldi;
 	FIELD at door Ldi;
+	FIELD au bucket Ldi;
+	FIELD av waterBucket Ldi;
+	FIELD aw lavaBucket Ldi;
 	FIELD az ironDoor Ldi;
 	FIELD b itemRand Ljava/util/Random;
 	FIELD c itemsList [Ldi;
 	FIELD d shovelSteel Ldi;
 	FIELD e pickaxeIron Ldi;
+	FIELD f axeIron Ldi;
 	FIELD g flintAndSteel Ldi;
 	FIELD h apple Ldi;
 	FIELD i bow Ldi;
@@ -66,10 +80,14 @@ CLASS di Item
 	FIELD p swordWood Ldi;
 	FIELD q shovelWood Ldi;
 	FIELD r pickaxeWood Ldi;
+	FIELD s axeWood Ldi;
 	FIELD t swordStone Ldi;
 	FIELD u shovelStone Ldi;
+	FIELD v pickaxeStone Ldi;
+	FIELD w axeStone Ldi;
 	FIELD x swordDiamong Ldi;
 	FIELD y shovelDiamind Ldi;
+	FIELD z pickaxeDiamond Ldi;
 	METHOD <init> (I)V
 		ARG 1 blockID
 	METHOD a isFull3D ()Z
