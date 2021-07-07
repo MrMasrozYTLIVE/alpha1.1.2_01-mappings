@@ -25,14 +25,22 @@ CLASS di Item
 	FIELD X helmetChain Ldi;
 	FIELD Y plateChain Ldi;
 	FIELD Z legsChain Ldi;
+	FIELD aA redstoneDust Ldi;
 	FIELD aB snowball Ldi;
+	FIELD aC boat Ldi;
+	FIELD aD leather Ldi;
+	FIELD aE milkBucket Ldi;
 	FIELD aF brick Ldi;
 	FIELD aG clay Ldi;
 	FIELD aH sugarCane Ldi;
 	FIELD aI paper Ldi;
 	FIELD aJ book Ldi;
 	FIELD aK slimeBall Ldi;
+	FIELD aL chest_minecart Ldi;
+	FIELD aM furnace_minecart Ldi;
 	FIELD aN egg Ldi;
+	FIELD aO compass Ldi;
+	FIELD aP fishingRod Ldi;
 	FIELD aQ record13 Ldi;
 	FIELD aR recordCat Ldi;
 	FIELD aS shiftedIndex I
@@ -62,6 +70,8 @@ CLASS di Item
 	FIELD au bucket Ldi;
 	FIELD av waterBucket Ldi;
 	FIELD aw lavaBucket Ldi;
+	FIELD ax minecart Ldi;
+	FIELD ay saddle Ldi;
 	FIELD az ironDoor Ldi;
 	FIELD b itemRand Ljava/util/Random;
 	FIELD c itemsList [Ldi;
