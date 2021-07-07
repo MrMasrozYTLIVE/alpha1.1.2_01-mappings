@@ -1,3 +1,0 @@
-CLASS ey
-	METHOD a getTexture (Ljava/lang/String;)I
-	METHOD b bindTexture (I)V

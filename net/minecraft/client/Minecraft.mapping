@@ -1,26 +1,57 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD A soundEngine Lof;
+	FIELD C mcDataDir Ljava/io/File;
 	FIELD F running Z
 	FIELD G debug Ljava/lang/String;
+	FIELD H prevFrameTime J
+	FIELD I inGameHasFocus Z
+	FIELD J isRaining Z
+	FIELD K systemTime J
+	FIELD M timer Lir;
+	FIELD N threadDownloadResource Lbf;
+	FIELD O ticksRan I
+	FIELD S serverName Ljava/lang/String;
+	FIELD T serverPort I
+	FIELD W minecraftDir Ljava/io/File;
+	FIELD a fullscreen Z
+	FIELD c displayWidth I
+	FIELD d displayHeight I
+	FIELD e theWorld Lcn;
+	FIELD g thePlayer Lbi;
 	FIELD i session Ldl;
 	FIELD j minecraftUri Ljava/lang/String;
+	FIELD k mcCanvas Ljava/awt/Canvas;
 	FIELD l hideQuitButton Z
 	FIELD m isWorldLoaded Z
 	FIELD n renderEngine Ley;
 	FIELD o fr Lkd;
+	FIELD p guiScreen Lbh;
+	FIELD q loadingScreen Lgr;
+	FIELD r entityRenderer Liq;
+	FIELD x objectMouseOver Lmf;
 	FIELD y gameSettings Lfr;
 	FIELD z minecraftApplet Lnet/minecraft/client/MinecraftApplet;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 1 component
 		ARG 2 canvas
 		ARG 3 minecraftApplet
+		ARG 4 integer4
+		ARG 5 integer5
+		ARG 6 boolean6
+	METHOD a startGame ()V
 	METHOD a displayGuiScreen (Lbh;)V
-	METHOD a (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 guiScreen
+	METHOD a displayUnexpectedThrowable (Lgo;)V
+		ARG 1 unexpectedthrowable
+	METHOD a getAppDir (Ljava/lang/String;)Ljava/io/File;
 		ARG 0 string
 	METHOD a setServer (Ljava/lang/String;I)V
+		ARG 1 serverName
+		ARG 2 serverPort
 	METHOD a (Ljava/lang/String;Ljava/io/File;)V
 		ARG 1 string
 		ARG 2 file
+	METHOD b getMinecraftDir ()Ljava/io/File;
 	METHOD b (Ljava/lang/String;)V
 		ARG 1 string
 	METHOD c shutdownMinecraftApplet ()V

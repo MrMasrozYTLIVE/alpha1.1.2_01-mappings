@@ -1,0 +1,2 @@
+CLASS fq EnumOSMappingHelper
+	FIELD a enumOSMappingArray [I

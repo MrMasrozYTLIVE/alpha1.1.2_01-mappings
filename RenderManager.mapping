@@ -1,4 +1,6 @@
-CLASS kx
+CLASS kx RenderManager
+	FIELD a instance Lkx;
+	FIELD f itemRenderer Ljh;
 	FIELD g world Lcn;
 	FIELD h entityPlayer Ldm;
 	FIELD k gameSettings Lfr;

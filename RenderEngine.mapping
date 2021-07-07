@@ -1,0 +1,6 @@
+CLASS ey RenderEngine
+	FIELD h gameSettings Lfr;
+	METHOD <init> (Lfr;)V
+		ARG 1 gameSettings
+	METHOD a getTexture (Ljava/lang/String;)I
+	METHOD b bindTexture (I)V

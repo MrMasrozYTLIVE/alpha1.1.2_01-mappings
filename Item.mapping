@@ -129,12 +129,12 @@ CLASS di Item
 	METHOD a getStrVsBlock (Lev;Lly;)F
 		ARG 1 itemStack
 		ARG 2 block
-	METHOD a (Lkh;)I
+	METHOD a getDamageVsEntity (Lkh;)I
 		ARG 1 entity
-	METHOD a (Lly;)Z
+	METHOD a canHarvestBlock (Lly;)Z
 		ARG 1 block
 	METHOD b getItemStackLimit ()I
-	METHOD b (Lev;Lge;)V
+	METHOD b saddleEntity (Lev;Lge;)V
 		ARG 1 itemStack
 		ARG 2 entityLiving
 	METHOD d setFull3D ()Ldi;

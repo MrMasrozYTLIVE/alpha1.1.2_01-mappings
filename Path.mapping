@@ -1,0 +1,15 @@
+CLASS fx Path
+	FIELD a pathPoints [La;
+	FIELD b count I
+	METHOD a clearPath ()V
+	METHOD a sortBack (I)V
+		ARG 1 i
+	METHOD a addPoint (La;)La;
+		ARG 1 pathPoint
+	METHOD a changeDistance (La;F)V
+		ARG 1 pathPoint
+		ARG 2 f
+	METHOD b dequeue ()La;
+	METHOD b sortForward (I)V
+		ARG 1 i
+	METHOD c isPathEmpty ()Z
