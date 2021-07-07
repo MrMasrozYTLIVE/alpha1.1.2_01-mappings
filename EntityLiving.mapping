@@ -1,0 +1,9 @@
+CLASS ge EntityLiving
+	FIELD E health I
+	FIELD aa moveSpeed F
+	FIELD u texture Ljava/lang/String;
+	METHOD c getLivingSound ()Ljava/lang/String;
+	METHOD d getHurtSound ()Ljava/lang/String;
+	METHOD e getDeathSound ()Ljava/lang/String;
+	METHOD g getDropItemId ()I
+	METHOD j onLivingUpdate ()V

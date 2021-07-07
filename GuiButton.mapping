@@ -1,0 +1,4 @@
+CLASS fk GuiButton
+	FIELD e displayString Ljava/lang/String;
+	FIELD f id I
+	FIELD g enabled Z

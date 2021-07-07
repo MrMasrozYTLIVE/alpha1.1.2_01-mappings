@@ -1,0 +1,6 @@
+CLASS ee GuiContainer
+	FIELD a xSize I
+	FIELD h ySize I
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+		ARG 1 float1
+	METHOD j drawGuiContainerForegroundLayer ()V

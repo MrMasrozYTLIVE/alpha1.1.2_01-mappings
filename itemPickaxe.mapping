@@ -1,0 +1,5 @@
+CLASS y itemPickaxe
+	FIELD aX block [Lly;
+	METHOD <init> (II)V
+		ARG 1 integer1
+		ARG 2 integer2

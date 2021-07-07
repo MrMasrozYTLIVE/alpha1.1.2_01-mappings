@@ -1,0 +1,5 @@
+CLASS el
+	METHOD a (Ljava/io/DataInput;)V
+		ARG 1 dataInput
+	METHOD a (Ljava/io/DataOutput;)V
+		ARG 1 dataOutput

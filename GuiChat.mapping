@@ -1,0 +1,2 @@
+CLASS de GuiChat
+	FIELD a screenTitle Ljava/lang/String;

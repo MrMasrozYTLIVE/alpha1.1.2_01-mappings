@@ -1,0 +1,2 @@
+CLASS er EnumArt
+	METHOD values ()[Ler;

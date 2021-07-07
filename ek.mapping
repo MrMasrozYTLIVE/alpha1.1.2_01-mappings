@@ -1,0 +1,5 @@
+CLASS ek
+	METHOD a getBlockPathWeight (III)F
+		ARG 1 i
+		ARG 2 j
+		ARG 3 k

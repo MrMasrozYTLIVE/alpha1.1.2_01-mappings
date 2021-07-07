@@ -1,0 +1,3 @@
+CLASS ob TileEntitySign
+	FIELD a signText [Ljava/lang/String;
+	FIELD b lineBeingEdited I

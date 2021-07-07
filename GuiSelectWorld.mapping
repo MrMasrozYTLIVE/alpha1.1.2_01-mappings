@@ -1,0 +1,5 @@
+CLASS jq GuiSelectWorld
+	FIELD a guiScreen Lbh;
+	FIELD h screenTitle Ljava/lang/String;
+	METHOD <init> (Lbh;)V
+		ARG 1 guiScreen

@@ -1,0 +1,24 @@
+CLASS ic TileEntity
+	FIELD a nameToClassMap Ljava/util/Map;
+	FIELD b classToNameMap Ljava/util/Map;
+	FIELD e worldObj Lcn;
+	FIELD f xCoord I
+	FIELD g yCoord I
+	FIELD h zCoord I
+	METHOD a getDistanceFrom (DDD)D
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD a readFromNBT (Lhm;)V
+		ARG 1 nbttagcompound
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 class1
+		ARG 1 string
+	METHOD b updateEntity ()V
+	METHOD b writeToNBT (Lhm;)V
+		ARG 1 nbttagcompound
+	METHOD c createAndLoadEntity (Lhm;)Lic;
+		ARG 0 nbttagcompound
+	METHOD f getBlockMetadata ()I
+	METHOD g getBlockType ()Lly;
+	METHOD j_ onInventoryChanged ()V

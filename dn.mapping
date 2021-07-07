@@ -1,0 +1,5 @@
+CLASS dn
+	METHOD a (Lge;F)V
+		ARG 1 entitySlime
+	METHOD a (Lge;I)Z
+		ARG 1 entitySlime

@@ -1,0 +1,7 @@
+CLASS bb StepSound
+	FIELD a sound Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;FF)V
+		ARG 1 string
+		ARG 2 float2
+		ARG 3 float3
+	METHOD a getStepSound ()Ljava/lang/String;

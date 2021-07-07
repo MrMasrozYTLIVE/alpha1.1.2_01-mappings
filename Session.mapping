@@ -1,0 +1,4 @@
+CLASS dl Session
+	FIELD b username Ljava/lang/String;
+	FIELD c sessionId Ljava/lang/String;
+	FIELD d mpPassParameter Ljava/lang/String;

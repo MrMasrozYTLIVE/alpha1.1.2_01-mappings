@@ -1,0 +1,4 @@
+CLASS ji Packet6SpawnPosition
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I

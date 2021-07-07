@@ -1,0 +1,2 @@
+CLASS dw CraftingManager
+	METHOD a addRecipe (Lev;[Ljava/lang/Object;)V

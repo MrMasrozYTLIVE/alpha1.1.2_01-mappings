@@ -1,0 +1,5 @@
+CLASS eo MathHelper
+	METHOD a sqrt_double (D)F
+	METHOD a sin (F)F
+	METHOD b floor_double (D)I
+	METHOD b cos (F)F

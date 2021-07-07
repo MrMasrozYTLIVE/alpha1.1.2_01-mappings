@@ -1,0 +1,4 @@
+CLASS nm
+	METHOD a getBlockId (III)I
+	METHOD c getLightBrightness (III)F
+	METHOD e getBlockMetadata (III)I

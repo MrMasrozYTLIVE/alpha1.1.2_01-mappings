@@ -1,0 +1,4 @@
+CLASS id GuiFurnace
+	FIELD j furnaceInventory Lke;
+	METHOD <init> (Leu;Lke;)V
+		ARG 2 tileEntityFurnace

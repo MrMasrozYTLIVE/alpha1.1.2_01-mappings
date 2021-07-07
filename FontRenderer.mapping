@@ -1,0 +1,5 @@
+CLASS kd FontRenderer
+	METHOD a getStringWidht (Ljava/lang/String;)I
+		ARG 1 string
+	METHOD a drawStringWithShadow (Ljava/lang/String;III)V
+	METHOD b drawString (Ljava/lang/String;III)V

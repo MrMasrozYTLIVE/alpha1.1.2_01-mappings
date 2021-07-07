@@ -1,0 +1,4 @@
+CLASS fs
+	FIELD a craftingManager Ldw;
+	METHOD <init> (Ldw;)V
+		ARG 1 craftingManager

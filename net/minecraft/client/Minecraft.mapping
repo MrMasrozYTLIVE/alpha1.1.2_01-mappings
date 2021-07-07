@@ -1,0 +1,30 @@
+CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
+	FIELD A soundEngine Lof;
+	FIELD F running Z
+	FIELD G debug Ljava/lang/String;
+	FIELD i session Ldl;
+	FIELD j minecraftUri Ljava/lang/String;
+	FIELD l hideQuitButton Z
+	FIELD m isWorldLoaded Z
+	FIELD n renderEngine Ley;
+	FIELD o fr Lkd;
+	FIELD y gameSettings Lfr;
+	FIELD z minecraftApplet Lnet/minecraft/client/MinecraftApplet;
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 component
+		ARG 2 canvas
+		ARG 3 minecraftApplet
+	METHOD a displayGuiScreen (Lbh;)V
+	METHOD a (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 string
+	METHOD a setServer (Ljava/lang/String;I)V
+	METHOD a (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 string
+		ARG 2 file
+	METHOD b (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD c shutdownMinecraftApplet ()V
+	METHOD c (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD d shutdown ()V
+	METHOD q getOS ()Lih;

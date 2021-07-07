@@ -1,0 +1,7 @@
+CLASS nv GuiEditSign
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD h entitySign Lob;
+	FIELD i updateCounter I
+	FIELD j editLine I
+	METHOD <init> (Lob;)V
+		ARG 1 tileentitysign

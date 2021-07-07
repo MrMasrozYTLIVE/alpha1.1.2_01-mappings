@@ -1,0 +1,21 @@
+CLASS bh GuiScreen
+	FIELD a guiButton Lfk;
+	FIELD b mc Lnet/minecraft/client/Minecraft;
+	FIELD c width I
+	FIELD d height I
+	FIELD e buttonList Ljava/util/List;
+	FIELD g fr Lkd;
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+		ARG 1 c
+		ARG 2 i
+	METHOD a drawScreen (IIF)V
+		ARG 1 i
+		ARG 2 j
+		ARG 3 f
+	METHOD a actionPerformed (Lfk;)V
+		ARG 1 button
+	METHOD b drawBackground (I)V
+	METHOD g updateScreen ()V
+	METHOD h onGuiClosed ()V
+	METHOD i drawDefaultBackground ()V

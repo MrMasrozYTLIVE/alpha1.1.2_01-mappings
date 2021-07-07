@@ -1,0 +1,4 @@
+CLASS kc
+	FIELD d guiMainMenu Lcx;
+	METHOD <init> (Lcx;II)V
+		ARG 1 guiMainMenu

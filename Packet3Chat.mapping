@@ -1,0 +1,4 @@
+CLASS ij Packet3Chat
+	FIELD a message Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 string

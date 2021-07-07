@@ -1,0 +1,8 @@
+CLASS ak
+	METHOD a (Lkh;DDDFF)V
+		ARG 1 entityItem
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+		ARG 9 float6

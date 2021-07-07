@@ -1,0 +1,4 @@
+CLASS lf RecipesIngots
+	FIELD a recipeItems [[Ljava/lang/Object;
+	METHOD a addRecipes (Ldw;)V
+		ARG 1 craftingManager

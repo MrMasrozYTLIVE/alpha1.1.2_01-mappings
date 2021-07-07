@@ -1,0 +1,4 @@
+CLASS fz
+	FIELD f world Lcn;
+	FIELD g entityPlayer Ldm;
+	FIELD n fr Lkd;

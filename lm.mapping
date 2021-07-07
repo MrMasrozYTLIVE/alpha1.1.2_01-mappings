@@ -1,0 +1,13 @@
+CLASS lm
+	METHOD a drawCenteredString (Lkd;Ljava/lang/String;III)V
+		ARG 1 fr
+		ARG 2 text
+		ARG 3 wight
+		ARG 4 height
+		ARG 5 color
+	METHOD b drawString (Lkd;Ljava/lang/String;III)V
+		ARG 1 fr
+		ARG 2 text
+		ARG 3 widht
+		ARG 4 height
+		ARG 5 color

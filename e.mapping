@@ -1,0 +1,4 @@
+CLASS e
+	FIELD t mc Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ley;)V
+		ARG 1 minecraft

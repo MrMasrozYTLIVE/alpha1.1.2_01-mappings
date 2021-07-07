@@ -1,0 +1,3 @@
+CLASS hr RecipesFood
+	METHOD a addRecipes (Ldw;)V
+		ARG 1 craftingManager

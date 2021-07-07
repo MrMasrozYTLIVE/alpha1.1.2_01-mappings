@@ -1,0 +1,2 @@
+CLASS bo EntitySheep
+	FIELD a setSheared Z

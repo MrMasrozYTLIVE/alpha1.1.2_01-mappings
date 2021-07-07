@@ -1,0 +1,12 @@
+CLASS eh Packet10Flying
+	FIELD a xPosition D
+	FIELD b yPosition D
+	FIELD c zPosition D
+	FIELD d stance D
+	FIELD e yaw F
+	FIELD f pitch F
+	FIELD g onGround Z
+	FIELD h moving Z
+	FIELD i rotating Z
+	METHOD <init> (Z)V
+		ARG 1 flag

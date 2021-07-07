@@ -1,0 +1,22 @@
+CLASS fr GameSettings
+	FIELD A optionsFile Ljava/io/File;
+	FIELD a musicVolume F
+	FIELD b soundVolume F
+	FIELD c sensitivity F
+	FIELD d invertMouse Z
+	FIELD e viewDistance I
+	FIELD f bobView Z
+	FIELD g anaglyph3d Z
+	FIELD h limitFPS Z
+	FIELD i graphics Z
+	FIELD u mc Lnet/minecraft/client/Minecraft;
+	FIELD w difficulty I
+	FIELD y renderDistances [Ljava/lang/String;
+	FIELD z difficulties [Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 file
+	METHOD b saveOptions ()V
+	METHOD b setOptionValue (II)V
+	METHOD d getKeyBinding (I)Ljava/lang/String;
+		ARG 1 integer

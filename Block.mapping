@@ -1,0 +1,44 @@
+CLASS ly Block
+	FIELD aA crops Lly;
+	FIELD aC stoneOvenIdle Lly;
+	FIELD aY sugarCane Lly;
+	FIELD ac cloth Lly;
+	FIELD ag mushroomBrown Lmq;
+	FIELD ah mushroomRed Lmq;
+	FIELD ai goldBlock Lly;
+	FIELD aj ironBlock Lly;
+	FIELD av crate Lly;
+	FIELD ay diamondBlock Lly;
+	FIELD az workbench Lly;
+	FIELD bb blockIndexInTexture I
+	FIELD bc blockID I
+	FIELD bl stepSound Lbb;
+	FIELD bm blockParticleGravity F
+	FIELD bn material Lgb;
+	FIELD bo slipperiness F
+	FIELD e soundPowderFootstep Lbb;
+	FIELD n blocksList [Lly;
+	FIELD p opaqueCubeLookup [Z
+	FIELD q isBlockContainer [Z
+	FIELD r lightOpacity [I
+	FIELD x cobblestone Lly;
+	FIELD y planks Lly;
+	METHOD <init> (IILgb;)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 material
+	METHOD <init> (ILgb;)V
+		ARG 1 block
+		ARG 2 material
+	METHOD a setBlockBounds (FFFFFF)V
+	METHOD a (Lbb;)Lly;
+		ARG 1 stepSound
+	METHOD a dropBlockAsItemWithChance (Lcn;IIIIF)V
+	METHOD a (Lcn;IIILdm;)Z
+		ARG 1 world
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 entityPlayer
+	METHOD b isOpaqueCube ()Z
+	METHOD c onBlockDestroyedByExplosion (Lcn;III)V

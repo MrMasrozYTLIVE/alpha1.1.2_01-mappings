@@ -1,0 +1,7 @@
+CLASS ay GuiOptions
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD h parentScreen Lbh;
+	FIELD i guiControls Lfr;
+	METHOD <init> (Lbh;Lfr;)V
+		ARG 1 guiScreen
+		ARG 2 gameSettings

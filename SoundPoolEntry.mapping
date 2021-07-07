@@ -1,0 +1,6 @@
+CLASS ah SoundPoolEntry
+	FIELD a soundName Ljava/lang/String;
+	FIELD b soundUrl Ljava/net/URL;
+	METHOD <init> (Ljava/lang/String;Ljava/net/URL;)V
+		ARG 1 s
+		ARG 2 url

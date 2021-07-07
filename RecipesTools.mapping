@@ -1,0 +1,5 @@
+CLASS dr RecipesTools
+	FIELD a recipePatterns [[Ljava/lang/String;
+	FIELD b recipeItems [[Ljava/lang/Object;
+	METHOD a addRecipes (Ldw;)V
+		ARG 1 craftingManager

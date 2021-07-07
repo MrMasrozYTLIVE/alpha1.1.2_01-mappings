@@ -1,0 +1,38 @@
+CLASS kh Entity
+	FIELD aB yOffset F
+	FIELD aC width F
+	FIELD aD height F
+	FIELD aQ rand Ljava/util/Random;
+	FIELD aT fire I
+	FIELD ag worldObj Lcn;
+	FIELD ak posX D
+	FIELD al posY D
+	FIELD am posZ D
+	FIELD an motionX D
+	FIELD ao motionY D
+	FIELD ap motionZ D
+	FIELD aq rotationYaw F
+	FIELD ar rotationPitch F
+	METHOD <init> (Lcn;)V
+		ARG 1 world
+	METHOD F setEntityDead ()V
+	METHOD a setPosition (DDD)V
+	METHOD a (DDDFFI)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+		ARG 7 float4
+		ARG 8 float5
+		ARG 9 integer
+	METHOD a getEntityBrightness (F)F
+	METHOD a setSize (FF)V
+	METHOD a entityDropItem (IIF)Ldx;
+	METHOD a writeEntityToNBT (Lhm;)V
+		ARG 1 nbttagcompound
+	METHOD a attackEntityFrom (Lkh;I)Z
+		ARG 1 entity
+		ARG 2 i
+	METHOD b readEntityFromNBT (Lhm;)V
+		ARG 1 nbttagcompound
+	METHOD c setLocationAndAngles (DDDFF)V
+	METHOD e_ onUpdate ()V

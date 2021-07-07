@@ -1,0 +1,2 @@
+CLASS ii NetworkManager
+	METHOD a processReadPackets ()V

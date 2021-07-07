@@ -1,0 +1,5 @@
+CLASS of SoundEngine
+	FIELD a soundSystem Lpaulscode/sound/SoundSystem;
+	FIELD f gameSettings Lfr;
+	METHOD a (Lfr;)V
+		ARG 1 gameSettings

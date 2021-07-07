@@ -1,0 +1,7 @@
+CLASS hm NBTTagCompound
+	METHOD a setInteger (Ljava/lang/String;I)V
+	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a setBoolean (Ljava/lang/String;Z)V
+	METHOD e getInteger (Ljava/lang/String;)I
+	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD m getBoolean (Ljava/lang/String;)Z

@@ -1,0 +1,9 @@
+CLASS cn World
+	FIELD n rand Ljava/util/Random;
+	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD b isDaytime ()Z
+	METHOD b (IIILic;)V
+		ARG 4 tileEntity
+	METHOD d setBlockWithNotify (IIII)Z
+	METHOD i canBlockSeeTheSky (III)Z

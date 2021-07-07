@@ -1,0 +1,112 @@
+CLASS di Item
+	FIELD B stick Ldi;
+	FIELD C bowlEmpty Ldi;
+	FIELD D bowlSoup Ldi;
+	FIELD E swordGold Ldi;
+	FIELD F shovelGold Ldi;
+	FIELD I silk Ldi;
+	FIELD J feather Ldi;
+	FIELD Q seed Ldi;
+	FIELD R wheat Ldi;
+	FIELD S bread Ldi;
+	FIELD T helmetLeather Ldi;
+	FIELD U plateLeather Ldi;
+	FIELD V legsLeather Ldi;
+	FIELD W bootsLeather Ldi;
+	FIELD X helmetChain Ldi;
+	FIELD Y plateChain Ldi;
+	FIELD Z legsChain Ldi;
+	FIELD aF brick Ldi;
+	FIELD aG clay Ldi;
+	FIELD aH sugarCane Ldi;
+	FIELD aI paper Ldi;
+	FIELD aJ book Ldi;
+	FIELD aK slimeBall Ldi;
+	FIELD aN egg Ldi;
+	FIELD aQ record13 Ldi;
+	FIELD aR recordCat Ldi;
+	FIELD aS shiftedIndex I
+	FIELD aT maxStackSize I
+	FIELD aV iconIndex I
+	FIELD aW bFull3D Z
+	FIELD aa bootsChain Ldi;
+	FIELD ab helmetIron Ldi;
+	FIELD ac plateIron Ldi;
+	FIELD ad legsIron Ldi;
+	FIELD ae bootsIron Ldi;
+	FIELD af helmetDiamond Ldi;
+	FIELD ag plateDiamond Ldi;
+	FIELD ah legsDiamond Ldi;
+	FIELD ai bootsDiamond Ldi;
+	FIELD aj helmetGold Ldi;
+	FIELD ak plateGold Ldi;
+	FIELD al legsGold Ldi;
+	FIELD am bootsGold Ldi;
+	FIELD an flint Ldi;
+	FIELD ao porkRaw Ldi;
+	FIELD ap porkCooked Ldi;
+	FIELD aq painting Ldi;
+	FIELD ar goldApple Ldi;
+	FIELD as sign Ldi;
+	FIELD at door Ldi;
+	FIELD az ironDoor Ldi;
+	FIELD b itemRand Ljava/util/Random;
+	FIELD c itemsList [Ldi;
+	FIELD d shovelSteel Ldi;
+	FIELD e pickaxeIron Ldi;
+	FIELD g flintAndSteel Ldi;
+	FIELD h apple Ldi;
+	FIELD i bow Ldi;
+	FIELD j arrow Ldi;
+	FIELD k coal Ldi;
+	FIELD l diamond Ldi;
+	FIELD m ironIngot Ldi;
+	FIELD n goldIngot Ldi;
+	FIELD o swordIron Ldi;
+	FIELD p swordWood Ldi;
+	FIELD q shovelWood Ldi;
+	FIELD r pickaxeWood Ldi;
+	FIELD t swordStone Ldi;
+	FIELD u shovelStone Ldi;
+	FIELD x swordDiamong Ldi;
+	FIELD y shovelDiamind Ldi;
+	METHOD <init> (I)V
+		ARG 1 blockID
+	METHOD a isFull3D ()Z
+	METHOD a setIconIndex (I)Ldi;
+		ARG 1 integer
+	METHOD a getIconIndex (Lev;)I
+		ARG 1 itemStack
+	METHOD a (Lev;IIII)V
+		ARG 1 itemStack
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 integer5
+	METHOD a onItemRightClick (Lev;Lcn;Ldm;)Lev;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 entityPlayer
+	METHOD a onItemUse (Lev;Ldm;Lcn;IIII)Z
+		ARG 1 itemStack
+		ARG 2 entityPlayer
+		ARG 3 world
+		ARG 4 integer4
+		ARG 5 integer5
+		ARG 6 integer6
+		ARG 7 integer7
+	METHOD a (Lev;Lge;)V
+		ARG 1 itemStack
+		ARG 2 entityLiving
+	METHOD a getStrVsBlock (Lev;Lly;)F
+		ARG 1 itemStack
+		ARG 2 block
+	METHOD a (Lkh;)I
+		ARG 1 entity
+	METHOD a (Lly;)Z
+		ARG 1 block
+	METHOD b getItemStackLimit ()I
+	METHOD b (Lev;Lge;)V
+		ARG 1 itemStack
+		ARG 2 entityLiving
+	METHOD d setFull3D ()Ldi;

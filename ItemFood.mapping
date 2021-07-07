@@ -1,0 +1,4 @@
+CLASS oj ItemFood
+	METHOD <init> (II)V
+		ARG 1 integer1
+		ARG 2 integer2

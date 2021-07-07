@@ -1,0 +1,11 @@
+CLASS bf ThreadDownloadResource
+	FIELD a resourcesFolder Ljava/io/File;
+	FIELD b mc Lnet/minecraft/client/Minecraft;
+	FIELD c closing Z
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
+		ARG 1 file
+		ARG 2 mc
+	METHOD a (Ljava/net/URL;Ljava/lang/String;JI)V
+		ARG 1 url
+		ARG 2 string
+	METHOD run ()V

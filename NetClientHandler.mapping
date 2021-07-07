@@ -1,0 +1,12 @@
+CLASS gy NetClientHandler
+	FIELD b rand Ljava/util/Random;
+	FIELD c disconnected Z
+	FIELD d networkManager Lii;
+	FIELD e mc Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 mc
+		ARG 2 s
+		ARG 3 i
+	METHOD a processReadPackets ()V
+	METHOD a addToSendQueue (Lfn;)V
+		ARG 1 packet

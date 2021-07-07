@@ -1,0 +1,3 @@
+CLASS lw GuiControls
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD i gameSettings Lfr;

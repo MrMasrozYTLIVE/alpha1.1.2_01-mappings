@@ -1,0 +1,25 @@
+CLASS lb NetHandler
+	METHOD a (Lbz;)V
+		ARG 1 packet51MapChunk
+	METHOD a handleUpdateTime (Ldu;)V
+	METHOD a handleFlying (Leh;)V
+		ARG 1 packet10Flying
+	METHOD a handleHandshake (Lgt;)V
+		ARG 1 packet2Handshake
+	METHOD a handlePickupSpawn (Lha;)V
+		ARG 1 packet21PickupSpawn
+	METHOD a handleLogin (Lhp;)V
+		ARG 1 packet1Login
+	METHOD a handleChat (Lij;)V
+	METHOD a (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD a handleSpawnPosition (Lji;)V
+	METHOD a handleBlockChange (Lli;)V
+		ARG 1 packet53BlockChange
+	METHOD a handleEntity (Llq;)V
+	METHOD a handleMultiBlockChange (Lna;)V
+		ARG 1 packet52MultiBlockChange
+	METHOD a handleKickDisconnect (Loh;)V
+		ARG 1 packet255KickDisconnect
+	METHOD b registerPacket (Lfn;)V
+		ARG 1 packet

@@ -1,0 +1,15 @@
+CLASS x
+	METHOD a (Lhm;)[B
+		ARG 0 nbtTagCompound
+	METHOD a (Lhm;Ljava/io/DataOutput;)V
+		ARG 0 nbtTagCompound
+		ARG 1 dataOutput
+	METHOD a (Lhm;Ljava/io/OutputStream;)V
+		ARG 0 ntbTagCompound
+		ARG 1 outputStream
+	METHOD a (Ljava/io/DataInput;)Lhm;
+		ARG 0 dataInput
+	METHOD a (Ljava/io/InputStream;)Lhm;
+		ARG 0 inputStream
+	METHOD a ([B)Lhm;
+		ARG 0 arr

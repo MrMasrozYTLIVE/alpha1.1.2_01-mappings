@@ -1,0 +1,7 @@
+CLASS ex
+	METHOD a (Lic;DDDF)V
+		ARG 1 tileEntityModSpawner
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5

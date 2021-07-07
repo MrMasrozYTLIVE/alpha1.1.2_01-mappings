@@ -1,0 +1,3 @@
+CLASS gb Material
+	FIELD c wood Lgb;
+	FIELD e iron Lgb;

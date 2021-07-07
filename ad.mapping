@@ -1,0 +1,4 @@
+CLASS ad
+	METHOD a (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 string
+	METHOD e getOS ()Lfa;

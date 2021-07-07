@@ -1,0 +1,8 @@
+CLASS lu GuiIngame
+	FIELD g mc Lnet/minecraft/client/Minecraft;
+	FIELD i recordPlaying Ljava/lang/String;
+	FIELD j recordPlayingUpFor I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD b setRecordPlayingMessage (Ljava/lang/String;)V
+		ARG 1 string

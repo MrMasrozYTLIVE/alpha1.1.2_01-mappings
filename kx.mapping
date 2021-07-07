@@ -1,0 +1,9 @@
+CLASS kx
+	FIELD g world Lcn;
+	FIELD h entityPlayer Ldm;
+	FIELD k gameSettings Lfr;
+	FIELD p fr Lkd;
+	METHOD a (Lcn;Ley;Lkd;Ldm;Lfr;F)V
+		ARG 3 fr
+		ARG 4 entityPlayer
+		ARG 5 gameSettings
